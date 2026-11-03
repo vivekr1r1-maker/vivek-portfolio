@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables & credentials
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Temporary files & OS specific
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+.idea/
+.vscode/

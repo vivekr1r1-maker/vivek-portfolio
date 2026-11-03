@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Vivek - First-Year Artificial Intelligence and Machine Learning engineering student at BGSCET, affiliated with VTU. Background, interests, strengths, learning journey, and aspirations.">
+  <title>About Me | Vivek - First-Year AIML Engineering Student</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts: Poppins & Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       NAVIGATION BAR
+       ======================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo" aria-label="Vivek Portfolio Home">
+        <div class="nav-logo-icon">V</div>
+        <div>
+          <div>Vivek</div>
+          <span class="nav-logo-meta">AIML • BGSCET (VTU)</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About Me</a>
+        <a href="education-skills.html" class="nav-link">Education &amp; Skills</a>
+        <a href="projects.html" class="nav-link">Projects &amp; Achievements</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle Dark and Light theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon moon-icon"></i>
+          <i class="fa-solid fa-sun sun-icon"></i>
+        </button>
+
+        <a href="assets/docs/resume.html" target="_blank" class="btn btn-outline btn-sm">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>Resume</span>
+        </a>
+
+        <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       PAGE HERO BANNER
+       ======================================================================== -->
+  <section class="page-banner">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <i class="fa-solid fa-angle-right" style="font-size: 0.75rem;"></i>
+        <span>About Me</span>
+      </div>
+      <h1 class="section-title">About <span class="text-gradient">Me</span></h1>
+      <p class="section-description" style="margin: 0 auto;">
+        Get to know my engineering path, academic curiosities, strengths, and goals as a first-year AIML student.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       PAGE 2: ABOUT ME CONTENT
+       ======================================================================== -->
+  <main class="about-section">
+    <div class="container">
+      
+      <!-- Section 1: Personal Introduction Grid -->
+      <div class="about-intro-grid">
+        
+        <!-- Profile Card Column -->
+        <div class="about-profile-card reveal">
+          <div class="about-avatar-wrapper">
+            <img src="assets/images/profile-placeholder.svg" alt="Vivek Portrait Placeholder" width="170" height="170">
+          </div>
+          <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem;">Vivek</h2>
+          <p style="color: var(--electric-blue); font-weight: 600; font-size: 0.92rem; margin-bottom: 0.85rem;">
+            First-Year AIML Engineering Student
+          </p>
+          <div class="status-badge" style="margin: 0 auto 1.25rem auto; background: rgba(0, 240, 255, 0.1); border-color: rgba(0, 240, 255, 0.3); color: var(--electric-blue);">
+            <span class="status-dot" style="background: var(--electric-blue); box-shadow: 0 0 8px var(--electric-blue);"></span>
+            <span>Currently Studying • First Year</span>
+          </div>
+
+          <div class="about-meta-list">
+            <div class="about-meta-item">
+              <span class="about-meta-label">Degree:</span>
+              <span class="about-meta-value">Bachelor of Engineering (BE)</span>
+            </div>
+            <div class="about-meta-item">
+              <span class="about-meta-label">Branch:</span>
+              <span class="about-meta-value">AI &amp; Machine Learning</span>
+            </div>
+            <div class="about-meta-item">
+              <span class="about-meta-label">College:</span>
+              <span class="about-meta-value">BGSCET</span>
+            </div>
+            <div class="about-meta-item">
+              <span class="about-meta-label">University:</span>
+              <span class="about-meta-value">VTU, Karnataka</span>
+            </div>
+            <div class="about-meta-item">
+              <span class="about-meta-label">Industry Visit:</span>
+              <span class="about-meta-value">GTTC</span>
+            </div>
+          </div>
+
+          <!-- Official LinkedIn Button Connected to Exact URL -->
+          <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
+            <a href="https://www.linkedin.com/in/vivek-r-379039443" target="_blank" rel="noopener noreferrer" class="btn btn-linkedin btn-sm" style="width: 100%;">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>View My LinkedIn Profile</span>
+            </a>
+            <a href="contact.html" class="btn btn-secondary btn-sm" style="width: 100%;">
+              <i class="fa-regular fa-envelope"></i>
+              <span>Get in Touch</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Personal Story & Narrative Column -->
+        <div class="about-story reveal">
+          <span class="section-tag"><i class="fa-solid fa-user-astronaut"></i> Personal Introduction</span>
+          <h2 style="font-size: 2.1rem; font-weight: 700; margin-bottom: 1.25rem;">
+            Curious About Technology, <span class="text-gradient">Inspired by AI</span>
+          </h2>
+
+          <!-- Exact Introduction Text Provided by User -->
+          <p>
+            Hello! I'm Vivek, a first-year Artificial Intelligence and Machine Learning engineering student at BGSCET, affiliated with Visvesvaraya Technological University (VTU).
+          </p>
+
+          <p>
+            I am curious about technology and interested in understanding how Artificial Intelligence and Machine Learning can solve real-world problems.
+          </p>
+
+          <p>
+            As a student at the beginning of my engineering journey, I enjoy exploring new technologies, learning programming, improving my problem-solving abilities, and developing my technical knowledge.
+          </p>
+
+          <p>
+            My ambition is to build a strong foundation in AI and Machine Learning and eventually contribute to innovative technology solutions.
+          </p>
+
+          <div style="display: flex; gap: 1.25rem; margin-top: 2rem; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 220px; padding: 1.25rem; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+              <div style="font-size: 1.4rem; font-weight: 800; color: var(--electric-blue); margin-bottom: 0.25rem;">
+                <i class="fa-solid fa-graduation-cap"></i> First Year
+              </div>
+              <p style="font-size: 0.85rem; color: var(--text-muted);">Bachelor of Engineering in AIML at BGSCET (VTU)</p>
+            </div>
+            <div style="flex: 1; min-width: 220px; padding: 1.25rem; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+              <div style="font-size: 1.4rem; font-weight: 800; color: var(--accent-purple); margin-bottom: 0.25rem;">
+                <i class="fa-solid fa-gears"></i> Hands-On
+              </div>
+              <p style="font-size: 0.85rem; color: var(--text-muted);">Technical exposure via GTTC industrial visit</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Section 2: My Interests -->
+      <div class="reveal" style="margin-top: 4rem;">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-compass"></i> Curiosity</span>
+          <h2 class="section-title">My Interests</h2>
+          <p class="section-description">
+            The domains and technology areas that captivate my attention and inspire my daily learning.
+          </p>
+        </div>
+
+        <div class="cards-grid-3">
+          <!-- Interest 1 -->
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h3 class="card-title">Artificial Intelligence</h3>
+            <p class="card-text">
+              Understanding intelligent systems, neural principles, and how algorithms can mimic human perception to solve meaningful challenges.
+            </p>
+          </div>
+
+          <!-- Interest 2 -->
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <h3 class="card-title">Machine Learning</h3>
+            <p class="card-text">
+              Learning how models ingest data, recognize subtle patterns, make predictions, and continuously improve through training feedback.
+            </p>
+          </div>
+
+          <!-- Interest 3 -->
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3 class="card-title">Programming</h3>
+            <p class="card-text">
+              Writing code in Python, C, and C++ to convert computational logic into functioning programs and algorithmic building blocks.
+            </p>
+          </div>
+
+          <!-- Interest 4 -->
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <h3 class="card-title">Emerging Technologies</h3>
+            <p class="card-text">
+              Keeping up with advancements in generative computing, intelligent automation, data analytics, and modern hardware acceleration.
+            </p>
+          </div>
+
+          <!-- Interest 5 -->
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h3 class="card-title">Software Development</h3>
+            <p class="card-text">
+              Learning how useful digital tools and software products are architected from the ground up, from syntax to deployment.
+            </p>
+          </div>
+
+          <!-- Interest 6 -->
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-industry"></i>
+            </div>
+            <h3 class="card-title">Practical Engineering</h3>
+            <p class="card-text">
+              Observing real industry workflows, such as precision tooling at GTTC, to understand how technology translates to the physical world.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: My Learning Journey -->
+      <div class="reveal" style="margin-top: 5rem;">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-road"></i> Engineering Pathway</span>
+          <h2 class="section-title">My Learning Journey</h2>
+          <p class="section-description">
+            How I am structuring my first year of engineering to build solid, lasting foundations.
+          </p>
+        </div>
+
+        <div class="cards-grid-2">
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-book-bookmark"></i>
+            </div>
+            <h3 class="card-title">Academic &amp; Mathematical Fundamentals</h3>
+            <p class="card-text">
+              My engineering studies at BGSCET under VTU emphasize computational mathematics, calculus, linear algebra concepts, and problem abstraction—crucial theoretical pillars required for understanding machine learning algorithms later in my degree.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-terminal"></i>
+            </div>
+            <h3 class="card-title">Hands-On Coding Practice</h3>
+            <p class="card-text">
+              Alongside lectures, I spend time practicing coding logic, understanding control flow, arrays, and functions in C and C++, while exploring Python syntax and libraries for beginner-level data manipulation.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 4: My Strengths -->
+      <div class="reveal" style="margin-top: 5rem;">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-shield-halved"></i> Key Attributes</span>
+          <h2 class="section-title">My Strengths</h2>
+          <p class="section-description">
+            Qualities and soft skills that guide my academic growth and collaborative interactions.
+          </p>
+        </div>
+
+        <div class="cards-grid-3">
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <h3 class="card-title">Curiosity &amp; Inquisitiveness</h3>
+            <p class="card-text">
+              An innate desire to look beneath the surface, ask questions, and understand why and how technical concepts work.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-puzzle-piece"></i>
+            </div>
+            <h3 class="card-title">Problem-Solving Mindset</h3>
+            <p class="card-text">
+              Approaching engineering questions step-by-step with structured reasoning, patience, and analytical discipline.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-arrows-rotate"></i>
+            </div>
+            <h3 class="card-title">Continuous Learning</h3>
+            <p class="card-text">
+              Embracing constructive feedback, reviewing foundational concepts regularly, and staying committed to steady improvement.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 5: My Hobbies (With Editable Placeholders) -->
+      <div class="reveal" style="margin-top: 5rem;">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-heart"></i> Leisure &amp; Life</span>
+          <h2 class="section-title">My Hobbies</h2>
+          <p class="section-description">
+            Activities I enjoy that keep me refreshed and inspired outside of academic study.
+          </p>
+        </div>
+
+        <div class="cards-grid-3">
+          <!-- Hobby 1 -->
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-newspaper"></i>
+            </div>
+            <h3 class="card-title">Exploring Tech News &amp; AI Updates</h3>
+            <p class="card-text">
+              Reading about the latest research breakthroughs, new open-source software, and emerging AI tools shaping our future.
+            </p>
+            <span class="editable-note"><i class="fa-solid fa-pen"></i> [Editable Placeholder - Customize your hobby]</span>
+          </div>
+
+          <!-- Hobby 2 -->
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-chess"></i>
+            </div>
+            <h3 class="card-title">Strategy &amp; Logic Games</h3>
+            <p class="card-text">
+              Playing chess and solving analytical puzzles that encourage forward-thinking, patience, and pattern recognition.
+            </p>
+            <span class="editable-note"><i class="fa-solid fa-pen"></i> [Editable Placeholder - Customize your hobby]</span>
+          </div>
+
+          <!-- Hobby 3 -->
+          <div class="info-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-book-open"></i>
+            </div>
+            <h3 class="card-title">Reading &amp; Self-Development</h3>
+            <p class="card-text">
+              Reading books and articles on science, innovation, and personal growth to cultivate broader perspectives.
+            </p>
+            <span class="editable-note"><i class="fa-solid fa-pen"></i> [Editable Placeholder - Customize your hobby]</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 6: Career Aspirations -->
+      <div class="career-goals-box reveal">
+        <span class="section-tag"><i class="fa-solid fa-bullseye"></i> Future Vision</span>
+        <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 0.75rem;">
+          Career Aspirations &amp; Goals
+        </h2>
+        <p style="color: var(--text-secondary); max-width: 750px;">
+          As an engineering student at the starting line, I maintain clear objectives for both my college years and my future professional life.
+        </p>
+
+        <div class="cards-grid-2" style="margin-top: 1.5rem;">
+          <!-- Short-Term Aspiration -->
+          <div class="info-card" style="background: var(--bg-card);">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+              <div style="font-size: 1.5rem; font-weight: 800; color: var(--electric-blue);">01</div>
+              <h3 style="font-size: 1.15rem; font-weight: 700;">Short-Term Goal (First Year &amp; Degree)</h3>
+            </div>
+            <p class="card-text">
+              Build an unshakeable foundation in programming (Python, C, C++), discrete mathematics, and algorithms. Gain practical experience by creating introductory AI/ML mini-projects and actively participating in college workshops and technical events.
+            </p>
+          </div>
+
+          <!-- Long-Term Aspiration -->
+          <div class="info-card" style="background: var(--bg-card);">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+              <div style="font-size: 1.5rem; font-weight: 800; color: var(--accent-purple);">02</div>
+              <h3 style="font-size: 1.15rem; font-weight: 700;">Long-Term Vision (Professional Engineer)</h3>
+            </div>
+            <p class="card-text">
+              Evolve into a skilled AI and Machine Learning engineer who contributes to innovative technology solutions that make a tangible positive impact on society, industry automation, and sustainable problem solving.
+            </p>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+          <a href="education-skills.html" class="btn btn-primary">
+            <span>Explore Education &amp; Skills</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/vivek-r-379039443" target="_blank" rel="noopener noreferrer" class="btn btn-linkedin">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Connect on LinkedIn</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <div class="nav-logo-icon">V</div>
+            <div>
+              <div>Vivek</div>
+              <span class="nav-logo-meta">AIML Student</span>
+            </div>
+          </a>
+          <p>
+            First-Year Artificial Intelligence and Machine Learning engineering student at BGSCET, affiliated with Visvesvaraya Technological University (VTU), Karnataka.
+          </p>
+          <div class="social-links" style="margin-top: 1.5rem;">
+            <a href="https://www.linkedin.com/in/vivek-r-379039443" target="_blank" rel="noopener noreferrer" class="social-btn linkedin-highlight" aria-label="LinkedIn" title="Vivek's LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="contact.html" class="social-btn" aria-label="Contact Vivek" title="Contact Me">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html" class="footer-nav-link">Home</a></li>
+            <li><a href="about.html" class="footer-nav-link">About Me</a></li>
+            <li><a href="education-skills.html" class="footer-nav-link">Education &amp; Skills</a></li>
+            <li><a href="projects.html" class="footer-nav-link">Projects &amp; Achievements</a></li>
+            <li><a href="contact.html" class="footer-nav-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Academic Profile</h4>
+          <ul class="footer-nav-list">
+            <li><span class="footer-nav-link">Degree: BE (First Year)</span></li>
+            <li><span class="footer-nav-link">Branch: AI &amp; ML (AIML)</span></li>
+            <li><span class="footer-nav-link">College: BGSCET</span></li>
+            <li><span class="footer-nav-link">University: VTU</span></li>
+            <li><span class="footer-nav-link">Industrial Visit: GTTC</span></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Academic Level</h4>
+          <div class="status-badge" style="margin-bottom: 1rem; background: rgba(0, 240, 255, 0.1); border-color: rgba(0, 240, 255, 0.3); color: var(--electric-blue);">
+            <span class="status-dot" style="background: var(--electric-blue); box-shadow: 0 0 8px var(--electric-blue);"></span>
+            <span>First-Year Student (2024-Present)</span>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem;">
+            Continuously learning, coding, and building solid foundations in AI/ML.
+          </p>
+          <a href="assets/docs/resume.html" target="_blank" class="btn btn-outline btn-sm" style="width: 100%;">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>View Resume</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Vivek. Personal Portfolio Website.
+        </div>
+        <div>
+          First-Year AIML Student • BGSCET, VTU • LinkedIn: <a href="https://www.linkedin.com/in/vivek-r-379039443" target="_blank" rel="noopener noreferrer" style="color: var(--electric-blue); text-decoration: underline;">vivek-r-379039443</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top" title="Back to Top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

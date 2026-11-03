@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Vivek | First-Year AIML Engineering Student</title>
+  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0a1128;
+      --accent: #0284c7;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', -apple-system, sans-serif;
+      color: var(--text);
+      background: #f1f5f9;
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .resume-container {
+      max-width: 850px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 3rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+    .print-bar {
+      max-width: 850px;
+      margin: 0 auto 1.5rem auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #0284c7;
+      color: #ffffff;
+      border: none;
+      padding: 0.6rem 1.25rem;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .btn-secondary {
+      background: #ffffff;
+      color: #334155;
+      border: 1px solid #cbd5e1;
+    }
+    .header {
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .header h1 {
+      font-size: 2.2rem;
+      color: var(--primary);
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    .header h2 {
+      font-size: 1.05rem;
+      color: var(--accent);
+      font-weight: 600;
+      margin-top: 0.25rem;
+    }
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      margin-top: 0.85rem;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+    .contact-links a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .section {
+      margin-bottom: 1.75rem;
+    }
+    .section-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--primary);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.35rem;
+      margin-bottom: 0.85rem;
+    }
+    .entry {
+      margin-bottom: 1.1rem;
+    }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: 600;
+      font-size: 0.98rem;
+    }
+    .entry-sub {
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin-bottom: 0.35rem;
+      font-weight: 500;
+    }
+    .entry ul {
+      padding-left: 1.25rem;
+      font-size: 0.88rem;
+      color: #334155;
+    }
+    .entry li {
+      margin-bottom: 0.25rem;
+    }
+    .skills-block {
+      font-size: 0.88rem;
+      line-height: 1.75;
+    }
+    .skills-block strong {
+      color: var(--primary);
+    }
+    .tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      background: #e0f2fe;
+      color: #0369a1;
+      font-weight: 600;
+      margin-left: 0.4rem;
+    }
+    .placeholder-box {
+      background: #f8fafc;
+      border: 1px dashed #cbd5e1;
+      border-radius: 6px;
+      padding: 0.75rem 1rem;
+      font-size: 0.85rem;
+      color: #64748b;
+      margin-top: 0.5rem;
+    }
+    @media print {
+      body { background: #ffffff; padding: 0; }
+      .resume-container { box-shadow: none; padding: 0; max-width: 100%; }
+      .print-bar { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-bar">
+    <a href="../../index.html" class="btn btn-secondary">← Back to Portfolio</a>
+    <button onclick="window.print()" class="btn">🖨️ Print / Save as PDF</button>
+  </div>
+
+  <div class="resume-container">
+    <header class="header">
+      <h1>Vivek</h1>
+      <h2>First-Year Engineering Student | Artificial Intelligence &amp; Machine Learning (AIML)</h2>
+      <div class="contact-links">
+        <span>📍 Karnataka, India</span>
+        <span>✉️ <a href="mailto:your.email@example.com">[Add your email address]</a></span>
+        <span>🔗 <a href="https://www.linkedin.com/in/vivek-r-379039443" target="_blank">linkedin.com/in/vivek-r-379039443</a></span>
+        <span>💻 <a href="#">[Add your GitHub profile]</a></span>
+      </div>
+    </header>
+
+    <section class="section">
+      <h3 class="section-title">Career Objective</h3>
+      <p style="font-size: 0.9rem; color: #334155; line-height: 1.65;">
+        Enthusiastic and curious first-year Artificial Intelligence and Machine Learning (AIML) engineering student at BGSCET (affiliated with VTU). Passionate about technology, programming fundamentals, and understanding how AI/ML can solve real-world problems. Eager to continuously learn, strengthen analytical foundations, and build hands-on technical solutions.
+      </p>
+    </section>
+
+    <section class="section">
+      <h3 class="section-title">Education</h3>
+      <div class="entry">
+        <div class="entry-header">
+          <span>Bachelor of Engineering (BE) - Artificial Intelligence &amp; Machine Learning</span>
+          <span>Current (First Year)</span>
+        </div>
+        <div class="entry-sub">BGSCET • Visvesvaraya Technological University (VTU), Karnataka</div>
+        <ul>
+          <li>Focus on engineering mathematics, foundational programming, problem-solving, and computational logic.</li>
+          <li>Actively exploring introductory concepts in Artificial Intelligence, algorithms, and data structures.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3 class="section-title">Academic &amp; Industrial Exposure</h3>
+      <div class="entry">
+        <div class="entry-header">
+          <span>Industrial Visit - Government Tool Room &amp; Training Centre (GTTC)</span>
+          <span>[Date Placeholder]</span>
+        </div>
+        <div class="entry-sub">Government Tool Room and Training Centre (GTTC), Karnataka</div>
+        <ul>
+          <li>Participated in an educational industrial visit to observe manufacturing, tooling environments, and practical technical workflows.</li>
+          <li>Gained valuable exposure to modern engineering practices, precision standards, and the crucial bridge between classroom theory and practical industry applications.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3 class="section-title">Technical Skills (Beginner / Currently Learning)</h3>
+      <div class="skills-block">
+        <p><strong>Programming Languages:</strong> Python <span class="tag">Learning</span>, C <span class="tag">Learning</span>, C++ <span class="tag">Learning</span></p>
+        <p><strong>AI &amp; Machine Learning:</strong> Introduction to AI, Machine Learning Fundamentals, Data Science Fundamentals, Exploring AI Technologies</p>
+        <p><strong>Personal &amp; Professional Skills:</strong> Problem-solving, Communication, Teamwork, Adaptability, Time Management, Continuous Learning</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3 class="section-title">Projects (Currently Exploring)</h3>
+      <div class="placeholder-box">
+        <em>"I'm currently exploring new technologies and developing my technical skills. Exciting projects will be added here as I progress through my AIML journey."</em>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3 class="section-title">Certifications &amp; Achievements</h3>
+      <div class="placeholder-box">
+        <em>[Editable Section] - Technical certifications, workshops, and extracurricular milestones will be documented here as they are earned.</em>
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>
